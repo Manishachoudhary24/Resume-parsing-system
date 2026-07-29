@@ -182,7 +182,7 @@ To run the project, create your own **Google Gemini API Key** and replace the pl
 
 
 
-## 📜 License
+## License
 
 This project is licensed for educational and learning purposes.
 
