@@ -3,7 +3,6 @@
  An AI-powered Resume Parsing System that extracts structured candidate information from PDF and DOCX resumes using a hybrid approach combining **Regular Expressions (Regex)** and **Google Gemini AI**.
 
 
-
 ## Introduction
 
 Recruiters and HR professionals often spend significant time manually reviewing resumes to identify relevant candidate information. This project automates that process by intelligently extracting both structured and contextual information from resumes.
@@ -21,25 +20,8 @@ The extracted information is merged into a structured JSON format, making it sui
 *  Extract Phone Number using Regex
 *  Extract LinkedIn Profile
 *  Extract GitHub Profile
-*  AI-powered extraction of:
-
-  * Name
-  * Address
-  * Professional Summary
-  * Education
-  * Skills
-  * Technical Skills
-  * Soft Skills
-  * Languages
-  * Work Experience
-  * Projects
-  * Certifications
-  * Internships
-  * Achievements
 *  Generate structured JSON output
 *  Hybrid extraction using Regex + Large Language Model (LLM)
-
-
 
 ## System Architecture
 
@@ -64,7 +46,7 @@ Merge Results
 Structured JSON Output
 
 
-
+```
 
 ##  Tech Stack
 
@@ -76,7 +58,7 @@ Structured JSON Output
 * JSON
 * Google Colab
 
-
+``
 
 ##  Project Structure
 
@@ -89,8 +71,6 @@ resume-parsing-system/
 ├── README.md
 └── sample_resume.pdf (Optional)
 ```
-
-
 
 ##  Installation
 
@@ -112,10 +92,7 @@ cd resume-parsing-system
 pip install -r requirements.txt
 ```
 
-
-
 ## Usage
-
 1. Open the project in **Google Colab** or run the Python script locally.
 2. Add your own **Google Gemini API Key**.
 3. Upload a resume in **PDF** or **DOCX** format.
@@ -125,9 +102,7 @@ pip install -r requirements.txt
 7. The extracted data is combined into a structured JSON format.
 
 
-
 ##  Sample Output
-
 ```json
 {
   "Name": "John Doe",
@@ -149,8 +124,6 @@ pip install -r requirements.txt
 }
 ```
 
-
-
 ##  Applications
 
 * Applicant Tracking Systems (ATS)
@@ -159,8 +132,6 @@ pip install -r requirements.txt
 * HR Management Systems
 * Candidate Profile Generation
 * Resume Analytics
-
-
 
 ##  Future Enhancements
 
@@ -173,17 +144,5 @@ pip install -r requirements.txt
 * Cloud Deployment
 
 
-
-## Security
-
-This repository **does not include any API keys**.
-
-To run the project, create your own **Google Gemini API Key** and replace the placeholder in the code. Never commit or publish your actual API key.
-
-
-
-## License
-
-This project is licensed for educational and learning purposes.
 
 
